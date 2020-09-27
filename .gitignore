@@ -1,0 +1,11 @@
+
+*
+!*/
+!*.py
+!*.cpp
+!*.c
+!*.java
+!*.go
+!*.in
+!*.out
+!.gitignore
