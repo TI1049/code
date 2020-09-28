@@ -9,3 +9,4 @@
 !*.in
 !*.out
 !.gitignore
+!README.md
