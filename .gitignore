@@ -8,5 +8,6 @@
 !*.go
 !*.in
 !*.out
+!*.js
 !.gitignore
 !README.md
