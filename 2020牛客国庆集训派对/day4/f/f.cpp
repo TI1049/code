@@ -57,31 +57,23 @@ struct BIT {
 void run() {
 	rd(n);
 	for (int i = 1; i <= n; ++i) rd(a[i]);
-	int Max = *max_element(a + 1, a + 1 + n);
-	//dbg(Max);
-	vector <int> vec;
-	for (int i = 1; i <= n; ++i) {
-		if (a[i] == Max) vec.push_back(i);
-	}
 	bit.init();
-	f[0] = 0;
 	int m = 1e5;
 	for (int i = 1; i <= n; ++i) {
-		f[i] = f[i - 1];
 		int now = bit.query(a[i] + 1, m);
-		f[i] += now;
+		f[i] = now;
 		bit.update(a[i], 1);
 	}
 	bit.init();
-	g[n + 1] = 0;
 	for (int i = n; i >= 1; --i) {
-		g[i] = g[i + 1];
 		int now = bit.query(a[i] + 1, m);
-		g[i] += now;
+		g[i] = now;
 		bit.update(a[i], 1);
 	}
-	ll res = min(f[n], g[1]);
-	for (int i = 1; i < n; ++i) chmin(res, f[i] + g[i + 1]);
+	ll res = 0;
+	for (int i = 1; i <= n; ++i) {
+		res += min(f[i], g[i]);
+	}
 	pt(res);
 }
 
