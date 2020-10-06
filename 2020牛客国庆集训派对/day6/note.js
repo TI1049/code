@@ -1,47 +1,47 @@
-const repo_url = 'https://raw.githubusercontent.com/Dup4/TI1049-Code-Repo/master/2020%E7%89%9B%E5%AE%A2%E5%9B%BD%E5%BA%86%E9%9B%86%E8%AE%AD%E6%B4%BE%E5%AF%B9/day5/';
-const practice_link = "https://ac.nowcoder.com/acm/contest/7852";
+const repo_url = 'https://raw.githubusercontent.com/Dup4/TI1049-Code-Repo/master/2020%E7%89%9B%E5%AE%A2%E5%9B%BD%E5%BA%86%E9%9B%86%E8%AE%AD%E6%B4%BE%E5%AF%B9/day6/';
+const practice_link = "https://ac.nowcoder.com/acm/contest/7854";
 const problem_id = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K'];
-const ac_status = [0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1];
-const problem_code_path = ["a/a.cpp", "b/b1.cpp", "c/c.cpp", "d/d.cpp", "e/e.cpp", "f/f.cpp", "g/g.cpp", "h/h.cpp", "i/i.cpp", "j/j.cpp", "k/k.cpp"];
+const ac_status = [1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0];
+const problem_code_path = ["a/a.cpp", "b/b.cpp", "c/c.cpp", "d/d.cpp", "e/e.cpp", "f/f.cpp", "g/g.cpp", "h/h.cpp", "i/i.cpp", "j/j.cpp", "k/k.cpp"];
 const problem_code_suffix = ["cpp", "cpp", "cpp", "cpp", "cpp", "cpp", "cpp", "cpp", "cpp", "cpp", "cpp"];
 const problem_name = [
-    "Kingdom Reunion", 
-    "Hyperdrome", 
-    "Great Deceiver",
-    "Exact Measurement", 
-    "Caravan Robbers", 
-    "Kabaleo Lite", 
-    "Hack Protection",
-    "Fraud Busters",
-    "Cactus Automorphisms",
-    "Bonus Cards",
-    "Knockout Racing"
+    "Fractions", 
+    "Guest Student", 
+    "Harder Satisfiability",
+    "Interval-Free Permutations", 
+    "King Kog's Reception", 
+    "Lazyland", 
+    "Minegraphed",
+    "Archery Tournament",
+    "Box",
+    "Connections",
+    "The Final Level"
 ];
 const ac_author = [
+    "Dup4 & lts",
+    "Dup4",
+    "-",
     "-",
     "Dup4",
     "Dup4",
-    "Dup4 & groggy_",
-    "-",
     "-",
     "-",
     "groggy_",
     "-",
-    "-",
-    "groggy_"
+    "-"
 ];
 const ac_time = [
-    "-",
-    "01:51(+1)",
-    "02:21(+)",
-    "04:35(+1)",
+    "01:38(+)",
+    "00:31(+1)",
     "-",
     "-",
+    "03:20(+)",
+    "00:38(+)",
     "-",
-    "00:34(+)",
     "-",
+    "01:09(+1)",
     "-",
-    "00:25(+1)"
+    "-"
 ];
 
 const template = 
